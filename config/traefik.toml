@@ -48,3 +48,8 @@ Watch = true
 # Default: true
 #
 exposedbydefault = false
+
+# Endpoint to use when connecting to Rancher
+#
+# Not realy Optional
+Endpoint = "https://rancher.cheztone.org"
