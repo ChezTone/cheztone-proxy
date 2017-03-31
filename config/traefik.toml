@@ -33,7 +33,7 @@ address = ":8082"
 #
 # Required
 #
-domain = "rancher.cheztone.org"
+domain = "cheztone.org"
 
 # Enable watch Rancher changes
 #
