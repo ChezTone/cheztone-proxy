@@ -1,0 +1,3 @@
+# Proxy used @Cheztone.org image:https://travis-ci.org/ChezTone/cheztone-proxy.svg?branch=master[]
+
+This project contains a configured Traefik proxy that should be use with a rancher backend
