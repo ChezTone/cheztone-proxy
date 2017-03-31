@@ -1,0 +1,50 @@
+################################################################
+# Display Traefik Dashboard
+################################################################
+
+# Enable web application dashboard
+#
+# Optional
+#
+[web]
+
+# Web administration port
+#
+# Required
+#
+address = ":8082"
+
+################################################################
+# Docker configuration backend
+################################################################
+
+# Enable Docker configuration backend
+#
+# Optional
+#
+# Enable Rancher configuration backend
+#
+# Optional
+#
+[rancher]
+
+# Default domain used.
+# Can be overridden by setting the "traefik.domain" label on an service.
+#
+# Required
+#
+domain = "rancher.cheztone.org"
+
+# Enable watch Rancher changes
+#
+# Optional
+# Default: true
+#
+Watch = true
+
+# Expose containers by default in traefik
+#
+# Optional
+# Default: true
+#
+exposedbydefault = false

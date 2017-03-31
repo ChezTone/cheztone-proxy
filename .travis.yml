@@ -1,0 +1,9 @@
+sudo: requiered
+services:
+   - docker
+after_script:
+  - docker build -t cheztone/cheztone-proxy .
+  - if [ "$TRAVIS_BRANCH" == "master" ]; then
+      docker login -u="$DOCKER_USERNAME" -p="$DOCKER_PASSWORD";
+      docker push cheztone/cheztone-proxy;
+      fi
